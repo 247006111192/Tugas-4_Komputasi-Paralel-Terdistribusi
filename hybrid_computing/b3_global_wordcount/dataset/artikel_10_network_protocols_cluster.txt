@@ -1,0 +1,5 @@
+Interconnection networks inside supercomputing clusters demand extremely high bandwidth and ultra-low communication latency.
+Technologies such as InfiniBand, Omni-Path, and RoCE or RDMA over Converged Ethernet bypass OS kernel networking stacks.
+Remote Direct Memory Access allows an MPI process to read or write directly into the virtual memory space of a remote node.
+This zero-copy architecture eliminates CPU involvement in data transfer operations, maximizing communication throughput.
+Point-to-point and collective communications in MPI heavily rely on the underlying hardware fabric topology to avoid link congestion.

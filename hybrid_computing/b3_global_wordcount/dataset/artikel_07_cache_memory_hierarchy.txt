@@ -1,0 +1,5 @@
+Hierarki memori komputer tersusun dari register prosesor, cache Level satu, cache Level dua, cache Level tiga, memori utama RAM, dan media penyimpanan sekunder.
+Semakin dekat posisi memori ke unit pemroses, semakin cepat waktu akses yang diperoleh namun dengan kapasitas penyimpanan yang semakin terbatas.
+Prinsip lokalitas spasial dan lokalitas temporal menjadi dasar perancangan cache untuk memprediksi data yang akan dieksekusi berikutnya.
+Kegagalan cache atau cache miss memaksa prosesor menunggu ratusan siklus clock hingga data berhasil diambil dari RAM utama.
+Dalam pemrograman berkinerja tinggi, penataan struktur data yang ramah terhadap cache line menjadi faktor penentu kecepatan komputasi.

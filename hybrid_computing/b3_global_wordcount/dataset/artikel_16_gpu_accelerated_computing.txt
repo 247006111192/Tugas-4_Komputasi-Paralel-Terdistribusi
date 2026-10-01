@@ -1,0 +1,5 @@
+Graphics Processing Units or GPUs have evolved from dedicated rasterization engines into powerful general-purpose massively parallel accelerators.
+While a typical modern CPU comprises between eight and thirty-two powerful cores optimized for sequential latency, a GPU houses thousands of cores.
+The Single Instruction Multiple Threads or SIMT architecture enables high arithmetic throughput for data-parallel algorithms like matrix multiplication.
+Frameworks such as CUDA and OpenCL allow developers to write compute kernels that execute across streaming multiprocessors.
+Data transfer across the PCI Express bus between host CPU memory and device GPU memory remains a critical performance consideration.

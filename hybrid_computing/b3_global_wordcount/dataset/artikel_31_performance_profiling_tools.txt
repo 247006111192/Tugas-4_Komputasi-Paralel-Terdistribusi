@@ -1,0 +1,5 @@
+Alat pemrofilan kinerja perangkat lunak membantu pengembang menganalisis konsumsi waktu eksekusi dan alokasi memori pada fungsi program.
+Pemrofil berbasis sampling secara berkala memeriksa program counter prosesor untuk membangun estimasi statistik waktu yang dihabiskan.
+Pemrofil berbasis instrumentasi menyisipkan kode pengukuran pada setiap fungsi untuk mencatat durasi panggilan secara tepat dan menyeluruh.
+Visualisasi flame graph menampilkan tumpukan panggilan fungsi yang memudahkan identifikasi jalur eksekusi yang paling banyak menyita waktu CPU.
+Analisis profil merupakan langkah fundamental sebelum menerapkan paralelisasi atau optimasi algoritma pada perangkat lunak berskala besar.

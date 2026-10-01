@@ -1,0 +1,5 @@
+Kebuntuan atau deadlock adalah kondisi ketika dua atau lebih proses saling menunggu sumber daya yang sedang ditahan oleh proses lain.
+Empat kondisi Coffman yang harus terpenuhi agar terjadi deadlock adalah mutual exclusion, hold and wait, no preemption, dan circular wait.
+Dalam komputasi hybrid MPI dan threading, deadlock dapat terjadi jika urutan pengiriman pesan dan perolehan lock tidak teratur dengan disiplin.
+Sebagai contoh, jika Rank A menunggu pesan dari Rank B sementara Rank B menunggu lock lokal yang sedang ditahan oleh thread lain di Rank A.
+Pencegahan deadlock dapat dilakukan dengan menerapkan urutan perolehan sumber daya secara global atau menggunakan non-blocking communication primitives.

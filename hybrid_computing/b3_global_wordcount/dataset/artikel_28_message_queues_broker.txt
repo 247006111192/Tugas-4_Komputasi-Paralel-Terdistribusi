@@ -1,0 +1,5 @@
+Message broker systems such as Apache Kafka and RabbitMQ decouple data producers from asynchronous consumers across enterprise architectures.
+Brokers store incoming message streams in partitioned append-only commit logs that support high ingestion throughput and fault tolerance.
+Consumer groups enable horizontal scaling by assigning distinct topic partitions to individual consumer instances across worker nodes.
+Backpressure regulation ensures that slow consumers signal upstream publishers to throttle throughput, preventing buffer overflow exhaustion.
+Message acknowledgment protocols guarantee delivery semantics ranging from at-most-once to at-least-once and strictly idempotent processing.

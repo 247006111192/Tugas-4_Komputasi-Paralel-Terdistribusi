@@ -1,0 +1,5 @@
+Algoritma konsensus Raft dirancang agar lebih mudah dipahami dan diimplementasikan dibandingkan algoritma Paxos klasik.
+Raft membagi masalah konsensus menjadi sub-masalah independen yaitu pemilihan pemimpin, replikasi log, dan keamanan status mesin.
+Sebuah node dalam kluster Raft dapat berada dalam salah satu dari tiga peran: pemimpin, pengikut, atau kandidat pemilihan.
+Pemimpin kluster bertanggung jawab menerima perintah dari klien, menuliskannya ke log lokal, dan mereplikasikannya ke mayoritas node pengikut.
+Dengan memanfaatkan quorum mayoritas, Raft menjamin bahwa sistem tetap konsisten meskipun beberapa node mengalami kegagalan jaringan atau crash.

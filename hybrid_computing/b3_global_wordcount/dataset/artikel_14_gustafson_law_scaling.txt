@@ -1,0 +1,5 @@
+Gustafson's law provides a complementary perspective to Amdahl's law by arguing that parallel problems naturally expand in scale.
+As computational resources increase, scientists and engineers do not simply solve fixed-size problems faster, but solve larger, more detailed models.
+Scaled speedup assumes that parallel workload scales linearly with the number of processors, keeping execution time relatively constant.
+This perspective underpins weak scaling benchmarks in supercomputers where problem dimensions expand alongside processor counts.
+Understanding the interplay between strong scaling and weak scaling is essential for proper supercomputer benchmarking and capacity planning.

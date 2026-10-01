@@ -1,0 +1,5 @@
+Heterogeneous computing architectures integrate diverse types of execution cores into single unified processing platforms to maximize efficiency.
+Modern mobile and desktop processors combine high-performance cores with power-efficient cores to dynamically handle variable computing workloads.
+Domain-specific accelerators such as Tensor Processing Units, Neural Processing Units, and FPGAs deliver orders of magnitude higher throughput per watt.
+Software stacks must evolve to intelligently schedule heterogeneous tasks across CPUs, GPUs, and specialized accelerators without manual intervention.
+Unified virtual memory architectures simplify programming by allowing host and accelerator processors to seamlessly share pointers to identical address spaces.

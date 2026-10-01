@@ -1,0 +1,5 @@
+Data compression algorithms reduce the physical storage footprint and network transmission bandwidth required for digital information.
+Lossless algorithms such as Huffman coding, Lempel-Ziv-Welch, and Snappy guarantee that the original data stream can be perfectly reconstructed.
+Entropy encoding assigns shorter variable-length bit codes to frequently occurring symbols while assigning longer codes to rare symbols.
+In distributed computing environments, compressing intermediate map results before network shuffle significantly diminishes network transfer time.
+The trade-off between CPU compression decompression latency and network bandwidth savings dictates optimal compression level selection.

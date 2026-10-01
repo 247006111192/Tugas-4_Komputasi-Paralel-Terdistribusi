@@ -1,0 +1,5 @@
+Microservice architecture decomposes monolithic enterprise applications into collections of loosely coupled, independently deployable services.
+Each microservice encapsulates a distinct business capability and communicates with peer services through lightweight APIs or message brokers.
+Decentralized data management allows each service to select the most suitable database technology, embracing polyglot persistence.
+Continuous integration and continuous deployment pipelines automate testing, container building, and deployment into cluster orchestrators.
+Observability tools such as distributed tracing, structured logging, and metric aggregators monitor service interactions and latency bottlenecks.

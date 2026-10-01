@@ -1,0 +1,5 @@
+Operasi input dan output pada sistem berkas skala besar sering kali menjadi hambatan utama dalam pipeline pemrosesan data analitik.
+Ketika ratusan proses secara bersamaan mencoba membaca berkas dari sistem penyimpanan yang sama, contention pada disk I/O tidak terhindarkan.
+Teknik buffering, prefetching, dan penggunaan distributed file systems seperti HDFS atau Lustre membantu mendistribusikan beban I/O.
+Dalam arsitektur pipeline, thread pembaca bertindak sebagai loader yang memuat data ke memori sebelum diserahkan kepada worker pemroses.
+Pemisahan peran antara I/O thread dan CPU worker memastikan pemanfaatan siklus komputasi prosesor tetap optimal tanpa harus menganggur menunggu disk.

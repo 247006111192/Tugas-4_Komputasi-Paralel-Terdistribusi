@@ -1,0 +1,5 @@
+Memori virtual menyediakan ilusi ruang alamat memori yang besar, privat, dan seragam bagi setiap proses yang berjalan di sistem operasi.
+Manajemen memori menggunakan Memory Management Unit pada prosesor untuk menerjemahkan alamat virtual menjadi alamat fisik melalui tabel halaman.
+Ketika proses mengakses halaman memori yang belum dipetakan ke RAM fisik, sistem operasi memicu page fault untuk memuat halaman dari disk.
+Translation Lookaside Buffer bertindak sebagai cache berkecepatan tinggi untuk translasi alamat guna menghindari akses memori berulang ke tabel halaman.
+Fragmentasi memori dan thrashing terjadi ketika sistem terlalu sering melakukan swap halaman antara RAM dan disk sekunder.

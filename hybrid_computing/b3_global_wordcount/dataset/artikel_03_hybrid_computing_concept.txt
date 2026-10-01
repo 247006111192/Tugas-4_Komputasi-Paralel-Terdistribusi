@@ -1,0 +1,5 @@
+Konsep hybrid computing mengintegrasikan model shared memory dan distributed memory ke dalam satu kesatuan sistem komputasi berkinerja tinggi.
+Di tingkat inter-node, proses berkomunikasi melalui protokol message passing seperti MPI melalui jaringan interkoneksi berkecepatan tinggi.
+Di dalam masing-masing node komputasi, thread atau sub-proses berbagi memori lokal melalui multi-threading atau OpenMP.
+Pendekatan ini meminimalkan overhead komunikasi antar-node dan memaksimalkan pemanfaatan arsitektur prosesor multi-core modern.
+Perancangan algoritma hybrid menuntut pemahaman mendalam tentang hierarki cache, latensi bus memori, dan topologi jaringan.

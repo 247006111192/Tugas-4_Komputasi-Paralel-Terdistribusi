@@ -1,0 +1,5 @@
+OpenMP is an open specification for multi-platform shared-memory parallel programming in C, C++, and Fortran compilers.
+It provides a set of compiler directives, library routines, and environment variables that control run-time execution parameters.
+The fork-join model forms the foundation of OpenMP execution where a master thread forks a team of parallel worker threads.
+Each thread in the team executes the statements inside the parallel region simultaneously across multiple physical CPU cores.
+Synchronization constructs such as critical sections, barriers, and atomic directives prevent data races on shared memory variables.

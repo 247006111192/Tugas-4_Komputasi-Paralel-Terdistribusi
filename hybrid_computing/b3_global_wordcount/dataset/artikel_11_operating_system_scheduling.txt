@@ -1,0 +1,5 @@
+Penjadwal sistem operasi bertanggung jawab untuk mengalokasikan waktu prosesor bagi semua thread dan proses yang sedang berjalan.
+Algoritma penjadwalan seperti Round Robin, Completely Fair Scheduler, dan Priority Preemptive berusaha menyeimbangkan keadilan dan latensi respons.
+Ketika jumlah thread aktif melebihi jumlah core fisik prosesor, overhead context switching meningkat secara signifikan.
+Penyimpanan register prosesor dan pergantian tabel halaman virtual memory menghabiskan siklus komputasi yang berharga.
+Oleh karena itu, penentuan jumlah worker dalam thread pool atau process pool harus disesuaikan dengan kapasitas core perangkat keras.

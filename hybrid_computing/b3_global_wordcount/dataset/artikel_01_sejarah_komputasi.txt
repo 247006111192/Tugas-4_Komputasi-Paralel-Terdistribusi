@@ -1,0 +1,5 @@
+Sejarah komputasi modern dimulai dari perkembangan mesin analitik oleh Charles Babbage dan pemikiran visioner Ada Lovelace.
+Pada abad kedua puluh, penemuan tabung hampa dan transistor memungkinkan pembuatan komputer elektronik pertama seperti ENIAC di Amerika Serikat.
+Perkembangan arsitektur von Neumann meletakkan dasar bagi komputer terprogram yang memisahkan memori dan unit pemrosesan pusat.
+Seiring berjalannya waktu, sirkuit terpadu atau integrated circuit memungkinkan miliaran transistor dimampatkan ke dalam satu chip silikon mikroprosesor.
+Sistem komputer modern kini mampu melakukan miliaran instruksi per detik dan menjadi tulang punggung revolusi informasi digital.

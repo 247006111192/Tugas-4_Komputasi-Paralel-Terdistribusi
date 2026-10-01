@@ -1,0 +1,5 @@
+The MapReduce programming model was designed by Google to simplify data processing across vast clusters of commodity hardware.
+The Map phase processes input key-value pairs to generate intermediate key-value pairs representing transformed data records.
+The intermediate values associated with the same key are grouped together by an automatic shuffle and sort mechanism.
+The Reduce phase then merges all values associated with the key to form a smaller set of aggregated final results.
+Global word count is the classic canonical example that demonstrates the full lifecycle of mapping tokens and reducing frequency counts.

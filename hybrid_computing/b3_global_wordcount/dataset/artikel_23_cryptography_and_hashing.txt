@@ -1,0 +1,5 @@
+Kriptografi modern menjamin kerahasiaan, integritas data, dan autentikasi dalam komunikasi digital melalui algoritma matematis yang kompleks.
+Fungsi hash kriptografis seperti SHA-256 memetakan data dengan ukuran sembarang menjadi digest berukuran tetap yang unik secara deterministik.
+Sifat one-way dan collision resistance memastikan bahwa sangat tidak mungkin untuk merekonstruksi data asli atau menemukan dua masukan berbeda dengan hash yang sama.
+Operasi hashing intensif sering digunakan dalam verifikasi integritas berkas, struktur blockchain, dan penyimpanan kata sandi terproteksi.
+Implementasi hashing paralel memanfaatkan instruksi prosesor khusus untuk memproses blok data independen secara simultan.

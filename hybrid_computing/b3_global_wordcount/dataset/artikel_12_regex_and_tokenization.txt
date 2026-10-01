@@ -1,0 +1,5 @@
+Text tokenization is the foundational preliminary step in modern natural language processing and information retrieval pipelines.
+Regular expressions provide a concise pattern matching language to filter punctuation, strip whitespace, and isolate alphanumeric words.
+Evaluating complex regular expressions across millions of text tokens demands substantial CPU cycles and memory bandwidth.
+Case normalization transforms all character sequences to lowercase so that identical words with different capitalizations match correctly.
+Stopword removal filters frequent functional words that carry minimal semantic information, shrinking the feature dictionary size.

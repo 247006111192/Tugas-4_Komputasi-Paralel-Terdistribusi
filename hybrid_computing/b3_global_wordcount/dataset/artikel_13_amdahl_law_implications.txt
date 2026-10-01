@@ -1,0 +1,5 @@
+Hukum Amdahl menyatakan bahwa percepatan maksimum yang dapat dicapai oleh program paralel dibatasi oleh fraksi serial dari algoritma tersebut.
+Bahkan jika suatu sistem memiliki jumlah prosesor tak terbatas, speedup teoritis tidak akan pernah melampaui kebalikan dari komponen serial.
+Sebagai contoh, jika sebuah program memiliki sepuluh persen bagian yang wajib berjalan secara sekuensial, speedup maksimum adalah sepuluh kali lipat.
+Konsekuensi hukum ini menekankan pentingnya mereduksi bagian serial dan meminimalkan ketergantungan data antar-proses.
+Dalam praktiknya, hukum Amdahl memandu arsitek perangkat lunak untuk mengidentifikasi bottleneck utama sebelum menambah prosesor.

@@ -1,0 +1,5 @@
+Inferensi model kecerdasan buatan bertugas menjalankan model jaringan saraf tiruan terlatih untuk memprediksi data masukan baru secara cepat.
+Kuantisasi bobot model dari presisi tunggal tiga puluh dua bit ke format integer delapan bit memperkecil konsumsi memori dan mempercepat kalkulasi.
+Teknik batching menggabungkan beberapa permintaan inferensi menjadi satu operasi matriks besar untuk memaksimalkan throughput akselerator komputasi.
+Sistem inferensi real-time harus memenuhi batasan service level agreement dengan latensi rendah pada sistem transaksi digital dan otomotif otonom.
+Optimasi pipeline inferensi melibatkan pemangkasan bobot yang tidak aktif dan penggabungan lapisan konvolusi dengan fungsi aktivasi.

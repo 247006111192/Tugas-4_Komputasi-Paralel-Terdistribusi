@@ -1,0 +1,5 @@
+Komputasi awan menyediakan sumber daya infrastruktur, platform, dan perangkat lunak melalui jaringan internet dengan model pembayaran sesuai pemakaian.
+Pusat data modern menampung puluhan ribu server yang dihubungkan dengan topologi jaringan leaf-spine berkecepatan tinggi.
+Teknologi virtualisasi dan kontainerisasi seperti Docker dan Kubernetes memungkinkan isolasi aplikasi yang efisien serta deployment otomatis.
+Elastisitas komputasi awan memungkinkan alokasi sumber daya secara dinamis saat lonjakan lalu lintas pengguna terjadi.
+Tantangan utama komputasi awan mencakup keamanan data, privasi pengguna, kepatuhan regulasi, dan manajemen biaya operasional server.

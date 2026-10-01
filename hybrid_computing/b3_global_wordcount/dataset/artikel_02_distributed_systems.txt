@@ -1,0 +1,5 @@
+Distributed computing refers to a model where components located on networked computers communicate and coordinate actions.
+The primary goal of a distributed system is to achieve high availability, fault tolerance, and horizontal scalability.
+Key challenges in distributed systems include partial failures, network partitions, latency spikes, and clock synchronization.
+The CAP theorem states that a distributed data store can simultaneously provide at most two out of three guarantees:
+consistency, availability, and partition tolerance. Modern platforms utilize consensus algorithms like Raft and Paxos to maintain state.

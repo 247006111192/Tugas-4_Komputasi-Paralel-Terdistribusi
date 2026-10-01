@@ -1,0 +1,5 @@
+Komputasi kuantum memanfaatkan fenomena mekanika kuantum seperti superposisi dan keterikatan kuantum atau entanglement untuk memproses data.
+Berbeda dengan bit klasik yang hanya dapat bernilai nol atau satu, qubit dapat berada dalam kombinasi linier dari kedua status tersebut.
+Algoritma kuantum seperti algoritma Shor dan algoritma Grover menawarkan percepatan eksponensial dan kuadratik untuk masalah matematika tertentu.
+Tantangan fisik terbesar dalam realisasi komputer kuantum praktis adalah dekoherensi kuantum akibat kebisingan lingkungan termal dan elektromagnetik.
+Komputasi hybrid klasik-kuantum memadukan CPU tradisional untuk kontrol logika dengan prosesor kuantum untuk komputasi aljabar linier khusus.

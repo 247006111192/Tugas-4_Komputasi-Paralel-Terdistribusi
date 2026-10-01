@@ -1,0 +1,5 @@
+Fault tolerance mechanisms ensure that a distributed computing cluster continues correct operation despite the unexpected failure of individual nodes.
+Heartbeat protocols periodically transmit keep-alive packets between worker nodes and coordinator processes to monitor health status.
+When a coordinator detects missed heartbeats exceeding a predefined timeout threshold, it initiates failover procedures and task reassignment.
+Checkpointing algorithms periodically serialize and persist complete program states to distributed storage for rollback recovery.
+Message logging and deterministic replay enable failed processes to reconstruct their state without requiring full cluster restarts.

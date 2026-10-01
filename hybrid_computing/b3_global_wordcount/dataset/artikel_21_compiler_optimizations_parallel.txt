@@ -1,0 +1,5 @@
+Pengoptimalan kompilator memainkan peran krusial dalam mengubah kode sumber tingkat tinggi menjadi instruksi biner yang efisien pada target prosesor.
+Teknik seperti loop unrolling, vectorization menggunakan instruksi SIMD, dan function inlining membantu memaksimalkan pemanfaatan unit fungsional CPU.
+Kompilator modern mampu menganalisis dependensi data untuk memvalidasi apakah suatu loop dapat diparalelkan secara otomatis tanpa race condition.
+Petunjuk kompilator atau pragmas membantu memberikan informasi eksplisit mengenai aliasing memori dan batas iterasi kepada optimizer.
+Efisiensi kode biner yang dihasilkan secara langsung menentukan throughput komputasi pada kernel pemrosesan teks dan kalkulasi numerik.

@@ -1,0 +1,24 @@
+# Virtual Environment (Jangan di-push ke git)
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary Office Lock Files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# IDE Configs
+.vscode/
+.idea/
+
+# OS Metadata
+Thumbs.db
+Desktop.ini
+.DS_Store

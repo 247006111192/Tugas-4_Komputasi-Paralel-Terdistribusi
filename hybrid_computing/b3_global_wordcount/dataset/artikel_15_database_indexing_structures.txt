@@ -1,0 +1,5 @@
+Struktur data indeks pada basis data relasional seperti B-Tree dan B+ Tree dirancang untuk mempercepat pencarian record pada media penyimpanan sekunder.
+Indeks mengorganisir kunci pencarian ke dalam pohon seimbang dengan percabangan yang lebar untuk meminimalkan jumlah akses blok disk.
+Pada basis data noSQL dan search engine, indeks terbalik atau inverted index memetakan setiap kata kunci ke daftar dokumen yang memuatnya.
+Proses pembangunan inverted index memerlukan tokenisasi teks berskala besar yang sering kali diparalelkan menggunakan paradigma map-reduce.
+Pembaruan indeks secara konkuren menuntut mekanisme penguncian bertingkat untuk menjaga konsistensi tanpa memblokir pembacaan.
